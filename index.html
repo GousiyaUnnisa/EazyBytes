@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Ghousiya Unnisa</h1>
+        <h3>And I'm a <span>Full stack Web Developer intern</span></h3>
+        <p>
+          Welcome to my creative portfolio! Iam a passionate and dedicated web
+          developer with a strong focus on creating stunning and user-friendly websites. I am currently pursuing my BCA degree and building full stack projects that combines creativity with technical expertise. I am excited to share my work with you and look forward to collaborating on future projects. let's build something amazing together!
+        </p>
+      <div class="home-img">
+        <img src="images/profile.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="home.jpeg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>BCA student!</h3>
+        <p>
+          I am a versatile and creative designer with expertise in graphic,
+          app, and website design. With a strong eye for aesthetics and a keen
+          understanding of user experience, I create visually stunning and
+          engaging designs that deliver results. I have experience working on
+          projects ranging from branding and marketing campaigns to user
+          interface design, brand logos and app interface.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            iam a full stack Developer intern with a passion for creating beautiful and
+            functional websites. I have experience in HTML, CSS, and JavaScript.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Data science</h3>
+          <p>
+            I am currently pursuing a course in data science. and creating projects using Python programming language.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-pencil"></i>
+          <h3>Artist </h3>
+          <p>
+            I am a passionate artist with a love for creating beautiful and meaningful mehandi artwork. 
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">N
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/port1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>MGV ARTWORKS</h4>
+            <p>
+              My own personal artwork website.
+            </p>
+            <a href="https://mgvartworks.netlify.app"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>
+              A portfolio Website
+            </p>
+            <a href="https://mgvportfolio.netlify.app"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/port4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Pending..</h4>
+            <p>
+              Under Development
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Pending..</h4>
+            <p>
+              Under Development
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+  <form action="mailto:ughousiya@gmail.com" method="post" enctype="text/plain" id="contactForm">
+    <div class="input-group">
+      <input type="text" id="fullName" name="name" placeholder="Full Name" required>
+      <input type="email" id="email" name="email" placeholder="Email Address" required>
+    </div>
+    <div class="input-group">
+      <input type="tel" id="phone" name="phone" placeholder="Mobile Number">
+      <input type="text" id="subject" name="subject" placeholder="Subject">
+    </div>
+    <textarea id="message" name="message" rows="6" placeholder="Your Message..." required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="formResponse"></p>
+  </form>
+</section>
+
+ <div id="projects"></div>
+
+  <script>
+    // Function to fetch project data from the backend
+    async function fetchProjects() {
+      try {
+        // Make an API call to the backend
+        const response = await fetch('http://localhost:5000/api/projects');
+        const projects = await response.json(); // Parse the JSON response
+
+        // Get the container where projects will be displayed
+        const projectsContainer = document.getElementById('projects');
+        projectsContainer.innerHTML = projects.map(project => `
+          <div>
+            <h3>${project.name}</h3>
+            <p>${project.description}</p>
+          </div>
+        `).join(''); // Create HTML for each project
+      } catch (error) {
+        console.error('Error fetching projects:', error);
+      }
+    }
+
+    // Call the function to fetch and display projects
+    fetchProjects();
+  </script>
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Ghousiya unnisa | All Rights Reserved|</p>
+      </div>
+
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
+</html>
